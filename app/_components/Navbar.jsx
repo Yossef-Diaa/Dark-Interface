@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { IoMdMenu } from "react-icons/io";
 import NavBarconfig from './NavBar-config';
+import logo from './assets/logo3.ico'
 
 function Navbar() {
  
@@ -9,7 +10,7 @@ function Navbar() {
     <nav className="mx-auto px-10 ">
       <div className="flex item-center justify-between">
         <div>
-        <Image src={"./assets/l1.png"} alt='Logo' width={150} height={50} className=''/>
+        <Image src={logo} alt='Logo' width={150} height={50} className=''/>
         </div>
         <div className="hidden md:flex space-x-6 items-center">
           <a href="#" className="text-slate-900 hover:text-_SecondDark">Portfolio</a>
