@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="mx-auto px-10 ">
       <div className="flex item-center justify-between">
         <div>
-        <Image src={"/assets/l1.png"} alt='Logo' width={150} height={50} className=''/>
+        <Image src={"./assets/l1.png"} alt='Logo' width={150} height={50} className=''/>
         </div>
         <div className="hidden md:flex space-x-6 items-center">
           <a href="#" className="text-slate-900 hover:text-_SecondDark">Portfolio</a>
