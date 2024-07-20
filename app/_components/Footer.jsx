@@ -5,6 +5,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import logo from './assets/l1.png'
 
 
 
@@ -19,7 +20,7 @@ function Footer() {
 
           </div>
           <div>
-          <Image src={"https://res.cloudinary.com/dxmudifi2/image/upload/v1720260673/l1_tdcmioc.png"} alt='Logo' width={150} height={50} className=''/>
+          <Image src={logo} alt='Logo' width={150} height={50} className=''/>
           </div>
 
           <div className='flex space-x-4'>

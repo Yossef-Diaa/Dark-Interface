@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import hero from './assets/Hero.png'
 
 function Hero() {
   return (
@@ -16,7 +17,7 @@ function Hero() {
     <a href="#" className='px-6 py-2 rounded-full self-center md:self-start text-white bg-_PrimeDark hover:bg-_SecondDark'>Get Started</a>
      </div>
      <div className="w-1/2">
-     <Image src={"https://res.cloudinary.com/dxmudifi2/image/upload/v1720261087/undraw_Programming_re_kg9v_l8l0fd.png"} alt='Hero' width={1000} height={1000}/>
+     <Image src={hero} alt='Hero' width={1000} height={1000}/>
      </div>
     </div>
     </section>
